@@ -1,0 +1,58 @@
+// My Custom Variables
+$c-h-line: #ddd !default;
+$c-light: #aaa !default;
+$c-30: 30px !default;
+$c-14: 14px !default;
+$c-21: 21px !default;
+$c-48: 48px !default;
+$c-semi-bold: 600 !default;
+
+// Option A: Include all of Bootstrap
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/utilities";
+
+// Include any default variable overrides here (though functions won't be available)
+
+// Then add additional custom code here
+
+// Merging
+$utilities: map-merge(
+  $utilities,
+  (
+    "line-height": (
+      property: line-height,
+      class: lh,
+      values: (
+        c-21: $c-21,
+        c-30: $c-30,
+        c-48: $c-48,
+      ),
+    ),
+    "font-weight": (
+      property: font-weight,
+      class: fw,
+      values: (
+        semi-bold: $c-semi-bold,
+      ),
+    ),
+    "font-size": (
+      rfs: true,
+      property: font-size,
+      class: fs,
+      values: (
+        c-14: $c-14,
+      ),
+    ),
+  )
+);
+
+// Create your own map
+$custom-colors: (
+  "c-light": $c-light,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
