@@ -3,7 +3,7 @@ body {
 }
 
 .bg-left {
-  background: url("../public/assets/img/bg.jpg");
+  background: url("../public/assets/img/login-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -17,7 +17,7 @@ body {
 }
 
 .bg-main {
-  background: url("../public/assets/img/bg.jpg");
+  background: url("../public/assets/img/login-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -42,7 +42,7 @@ body {
   p {
     background: rgba(0, 0, 0, 0.466);
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left: auto;
     right: auto;
   }

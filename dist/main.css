@@ -10862,7 +10862,7 @@ body {
 }
 
 .bg-left {
-  background: url(/images/bg.jpg?5a6f531bfd0e929ba011e0f73a8581fe);
+  background: url(/images/login-background.jpg?5a6f531bfd0e929ba011e0f73a8581fe);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10876,7 +10876,7 @@ body {
 }
 
 .bg-main {
-  background: url(/images/bg.jpg?5a6f531bfd0e929ba011e0f73a8581fe);
+  background: url(/images/login-background.jpg?5a6f531bfd0e929ba011e0f73a8581fe);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10901,7 +10901,7 @@ body {
 .swiper-slide p {
   background: rgba(0, 0, 0, 0.466);
   position: absolute;
-  bottom: 0;
+  bottom: 40px;
   left: auto;
   right: auto;
 }
