@@ -9,45 +9,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../dist/main.css" />
-    <!-- <link rel="stylesheet" href="./custom.css"> -->
   </head>
   <body>
     <main class="vh-100 position-relative bg-main">
-      <div class="bg-left d-none d-lg-block"></div>
+      <div class="bg-left d-none d-lg-block">
+        <div class="swiper-container loginSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/slide-1.jpg" class="d-block" alt="carousel-img">
+              <p class="text-white text-center fs-c-14 lh-c-30 ps-c-135 pe-c-135">
+                Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/slide-2.jpg" class="d-block" alt="carousel-img">
+              <p class="text-white text-center fs-c-14 lh-c-30 ps-c-135 pe-c-135">
+                Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/slide-3.jpg" class="d-block" alt="carousel-img">
+              <p class="text-white text-center fs-c-14 lh-c-30 ps-c-135 pe-c-135">
+                Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
       <div class="container h-100">
         <div class="row h-100">
           <div class="d-none d-lg-block col-lg-7 d-flex align-items-center">
             <div class="d-flex flex-column h-100 align-items-center justify-content-center">
-                <!-- Swiper -->
-                <div class="swiper-container loginSwiper">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="./assets/img/slide-1.jpg" class="d-block" alt="carousel-img">
-                      <p class="text-white text-center fs-c-14 lh-c-30">
-                        Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.
-                      </p>
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./assets/img/slide-2.jpg" class="d-block" alt="carousel-img">
-                      <p class="text-white text-center fs-c-14 lh-c-30">
-                        Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.
-                      </p>
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="./assets/img/slide-3.jpg" class="d-block" alt="carousel-img">
-                      <p class="text-white text-center fs-c-14 lh-c-30">
-                        Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
-                </div>
-              
             </div>
           </div>
           <div class="col col-lg-4 offset-lg-1 d-flex align-items-center">
             <div class="w-100">
-              <form class="mb-5">
+              <form class="mb-c-135">
                 <div class="d-flex flex-column align-items-center">
                   <h2 class="mb-4 fw-semi-bold lh-48">Sign in Now!</h2>
                   <div class="d-grid w-100 mb-4">
@@ -64,12 +62,12 @@
                   <label for="exampleInputEmail1" class="form-label">E-mail</label>
                   <input type="email" class="form-control rounded" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="mb-3">
+                <div class="mb-c-40">
                   <div class="form-group has-success">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
                     <div class="input-group">
                       <input type="password" class="form-control border-end-0" aria-label="passwordHelp">
-                      <span class="input-group-text bg-transparent border-start-0">
+                      <span class="input-group-text bg-white border-start-0">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                           <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
@@ -77,17 +75,17 @@
                       </span>
                     </div>
                   <div id="passwordHelp" class="form-text text-end">
-                    <a href="#" class="link-c-light text-decoration-none">Forgot my password?</a>
+                    <a href="#" class="text-change text-lg-change text-decoration-none">Forgot my password?</a>
                   </div>
                   </div>
                 </div>
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-primary">Sign in</button>
+                  <button type="submit" class="btn btn-c-primary rounded-c-12">Sign in</button>
                 </div>
               </form>
               <p class="text-center fs-6 lh-base">
-                <span class="text-c-light">Dont have an account yet? </span>
-                <a href="#" class="link-primary text-decoration-none">Create an account</a>  
+                <span class="text-change text-lg-change">Dont have an account yet? </span>
+                <a href="#" class="link-c-primary text-decoration-none">Create an account</a>  
               </p>
             </div>
           </div>
@@ -101,25 +99,11 @@
         pagination: {
           el: ".swiper-pagination",
         },
+        autoplay: {
+          delay: 5000,
+        },
+        speed: 1500,
       });
     </script>
   </body>
 </html>
-<!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/img/slide-1.jpg" class="d-block" alt="carousel-img">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/slide-2.jpg" class="d-block" alt="carousel-img">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/slide-3.jpg" class="d-block" alt="carousel-img">
-                  </div>
-                </div>
-              </div> -->

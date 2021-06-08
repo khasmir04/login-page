@@ -1,22 +1,38 @@
-// My Custom Variables
+// Add custom variables
 $c-h-line: #ddd !default;
 $c-light: #aaa !default;
 $c-30: 30px !default;
+$c-12: 12px !default;
 $c-14: 14px !default;
 $c-21: 21px !default;
+$c-40: 40px !default;
 $c-48: 48px !default;
+$c-135: 135px !default;
 $c-semi-bold: 600 !default;
+$c-primary: #1b52f4 !default;
 
-// Option A: Include all of Bootstrap
+// Add spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  c-40: $c-40,
+  c-135: $c-135,
+) !default;
+
+// Include bootstrap files you need
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/utilities";
 
-// Include any default variable overrides here (though functions won't be available)
+// Add additional custom codes here
 
-// Then add additional custom code here
-
-// Merging
+// Merge utilities
 $utilities: map-merge(
   $utilities,
   (
@@ -44,15 +60,24 @@ $utilities: map-merge(
         c-14: $c-14,
       ),
     ),
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      values: (
+        c-12: $c-12,
+      ),
+    ),
   )
 );
 
 // Create your own map
 $custom-colors: (
   "c-light": $c-light,
+  "c-primary": $c-primary,
 );
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+// Finally, import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
