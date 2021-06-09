@@ -183,4 +183,4 @@ Project Link: [https://github.com/khasmir04/login-page](https://github.com/khasm
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/khasmir/
-[product-screenshot]: /assets/img/Screenshot.png
+[product-screenshot]: /public/assets/img/Screenshot.png
