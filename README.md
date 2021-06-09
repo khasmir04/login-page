@@ -1,4 +1,4 @@
-<a href="https://khasmir04.github.io/Login-Page/public/login.html">
+<a href="https://khasmir04.github.io/login-page/public/login.html">
     Go to Index
 </a>
 
@@ -92,7 +92,7 @@ Table of Contents
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://khasmir04.github.io/Login-Page/public/login.html)
+[![Product Name Screen Shot][product-screenshot]](https://khasmir04.github.io/login-page/public/login.html)
 A figma converted design made with bootstrap.
 
 ### Built With
@@ -119,7 +119,7 @@ Use updated browsers when visiting the site:
 ### Installation
 
 You can browse the website directly using the following link:
-https://khasmir04.github.io/Login-Page/public/login.html
+https://khasmir04.github.io/login-page/public/login.html
 
 <!-- USAGE EXAMPLES -->
 
@@ -132,7 +132,7 @@ Just clone the repository and get the needed source files.
 
 ## Roadmap
 
-See the [open issues](https://khasmir04.github.io/Login-Page/public/login.html) for a list of proposed features (and known issues).
+See the [open issues](https://khasmir04.github.io/login-page/public/login.html) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -158,7 +158,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Khasmir Jhon Caluscusao - [@khasmircortez](https://twitter.com/khasmircortez) - kcaluscusao@gmail.com
 
-Project Link: [https://github.com/khasmir04/Login-Page](https://github.com/khasmir04/Login-Page)
+Project Link: [https://github.com/khasmir04/login-page](https://github.com/khasmir04/login-page)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -171,14 +171,14 @@ Project Link: [https://github.com/khasmir04/Login-Page](https://github.com/khasm
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 </details>
 
-[contributors-shield]: https://img.shields.io/github/contributors/khasmir04/Login-Page.svg?style=for-the-badge
-[contributors-url]: https://github.com/khasmir04/Login-Page/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/khasmir04/Login-Page.svg?style=for-the-badge
-[forks-url]: https://github.com/khasmir04/Login-Page/network/members
-[stars-shield]: https://img.shields.io/github/stars/khasmir04/Login-Page.svg?style=for-the-badge
-[stars-url]: https://github.com/khasmir04/Login-Page/stargazers
-[issues-shield]: https://img.shields.io/github/issues/khasmir04/Login-Page.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/khasmir04/Login-Page/issues
+[contributors-shield]: https://img.shields.io/github/contributors/khasmir04/login-page.svg?style=for-the-badge
+[contributors-url]: https://github.com/khasmir04/login-page/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/khasmir04/login-page.svg?style=for-the-badge
+[forks-url]: https://github.com/khasmir04/login-page/network/members
+[stars-shield]: https://img.shields.io/github/stars/khasmir04/login-page.svg?style=for-the-badge
+[stars-url]: https://github.com/khasmir04/login-page/stargazers
+[issues-shield]: https://img.shields.io/github/issues/khasmir04/login-page.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/khasmir04/login-page/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
