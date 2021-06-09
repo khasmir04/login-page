@@ -47,16 +47,16 @@ Connect with me🤝:
   <img align="left" alt="Khasmir's Github" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png" />
 </a>
 <a href="https://instagram.com/khasmir.cortez/">
-  <img align="left" alt="Dave's Instagram" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" />
+  <img align="left" alt="Khasmir's Instagram" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" />
 </a>
 <a href="https://www.facebook.com/khazmhir/">
-  <img align="left" alt="Dave's Facebook" width="22px" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" />
+  <img align="left" alt="Khasmir's Facebook" width="22px" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" />
 </a>
 <a href="https://twitter.com/khasmircortez">
-  <img align="left" alt="Dave's Twitter" width="22px" src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Twitter_NEW.png" />
+  <img align="left" alt="Khasmir's Twitter" width="22px" src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Twitter_NEW.png" />
 </a>
 <a href="https://www.linkedin.com/in/khasmir/">
-  <img align="left" alt="Dave's Linkdein" width="22px" src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png" />
+  <img align="left" alt="Khasmir's Linkdein" width="22px" src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png" />
 </a>
 <br/>
 </details>
@@ -97,9 +97,7 @@ A figma converted design made with bootstrap.
 
 ### Built With
 
-- [Flickity](https://flickity.metafizzy.co/)
-- [AOS](https://michalsnik.github.io/aos/)
-- [Mapbox](https://www.mapbox.com/)
+- [Bootstrap5](https://getbootstrap.com/)
 
 <!-- GETTING STARTED -->
 
@@ -129,8 +127,6 @@ https://khasmir04.github.io/Login-Page/public/login.html
 
 This webpage can be used for most sites needing a login page.
 Just clone the repository and get the needed source files.
-
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <!-- ROADMAP -->
 
@@ -162,34 +158,29 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Khasmir Jhon Caluscusao - [@khasmircortez](https://twitter.com/khasmircortez) - kcaluscusao@gmail.com
 
-Project Link: [https://github.com/khasmir04/Cusina](https://github.com/khasmir04/Cusina)
+Project Link: [https://github.com/khasmir04/Login-Page](https://github.com/khasmir04/Login-Page)
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
 
-- [Flickity](https://flickity.metafizzy.co/)
-- [AOS](https://michalsnik.github.io/aos/)
-- [Mapbox](https://www.mapbox.com/)
-- [Font Awesome](https://fontawesome.com)
-- [Pexels](https://www.pexels.com/)
-- [icons8](https://icons8.com/)
-- [Unsplash](https://unsplash.com)
+- [SwiperJS](https://swiperjs.com/)
+- [BootstrapIcons](https://icons.getbootstrap.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 </details>
 
-[contributors-shield]: https://img.shields.io/github/contributors/khasmir04/khasmir04.github.io.svg?style=for-the-badge
-[contributors-url]: https://github.com/khasmir04/khasmir04.github.io/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/khasmir04/khasmir04.github.io.svg?style=for-the-badge
-[forks-url]: https://github.com/khasmir04/khasmir04.github.io/network/members
-[stars-shield]: https://img.shields.io/github/stars/khasmir04/khasmir04.github.io.svg?style=for-the-badge
-[stars-url]: https://github.com/khasmir04/khasmir04.github.io/stargazers
-[issues-shield]: https://img.shields.io/github/issues/khasmir04/khasmir04.github.io.svg?style=for-the-badge
-[issues-url]: https://github.com/khasmir04/khasmir04.github.io/issues
+[contributors-shield]: https://img.shields.io/github/contributors/khasmir04/Login-Page.svg?style=for-the-badge
+[contributors-url]: https://github.com/khasmir04/Login-Page/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/khasmir04/Login-Page.svg?style=for-the-badge
+[forks-url]: https://github.com/khasmir04/Login-Page/network/members
+[stars-shield]: https://img.shields.io/github/stars/khasmir04/Login-Page.svg?style=for-the-badge
+[stars-url]: https://github.com/khasmir04/Login-Page/stargazers
+[issues-shield]: https://img.shields.io/github/issues/khasmir04/Login-Page.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/khasmir04/Login-Page/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/khasmir/
+[linkedin-url]: https://linkedin.com/in/khasmir/
 [product-screenshot]: /assets/img/Screenshot.png
