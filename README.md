@@ -16,7 +16,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    
 <!--   <a href="https://github.com/khasmir04/login-page">
     <img src="/assets/img/logo-cropped.svg" alt="Logo" width="80" height="80">
   </a> -->
@@ -24,10 +23,12 @@
   <h3 align="center">Login Page with Bootstrap</h3>
 
   <p align="center">
-<!--  Subtitle  -->
-    <br />
+<!--   Subtitle -->
     <p align="center">By: Khasmir Jhon Caluscusao</p>
     <br />
+  </p>
+      
+  <p align="center">
     <a href="https://github.com/khasmir04/login-page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
